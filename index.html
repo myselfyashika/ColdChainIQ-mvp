@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ColdChainIQ MVP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>❄️ ColdChainIQ Dashboard</h1>
+
+  <div class="card">
+    <h2>🌡️ Temperature</h2>
+    <p id="temp">5°C</p>
+  </div>
+
+  <div class="card">
+    <h2>Status</h2>
+    <p id="status" class="safe">🟢 Safe</p>
+  </div>
+
+  <div class="card">
+    <h2>🔮 Prediction</h2>
+    <p id="prediction">Stable</p>
+  </div>
+
+  <div class="card">
+    <h2>⚡ Energy Used</h2>
+    <p id="energy">120 kWh</p>
+  </div>
+
+  <div class="card">
+    <h2>🌱 Carbon Saved</h2>
+    <p id="carbon">30 kg CO₂</p>
+  </div>
+
+  <button onclick="simulate()">Simulate Temperature Rise</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
